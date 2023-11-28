@@ -25,19 +25,19 @@ By automating these processes, the Google Apps Script streamlines the management
 1. **Open Your Google Sheet**: Access [a sample Google Sheet](https://docs.google.com/spreadsheets/d/1mMuQSK06hIcAUcI1qW4cgD2_IKOXU9_DAR2CTj2a-a8/edit#gid=1834592607) where you want to use this script.
 2. **Conduct GAS Authorizatio**: Access `Initial Setting` Sheet and click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
 <div style="margin-left: 50px">
-  <img src="assets/initial-setting.png" alt="Initial Setting" width="300" height="50">
+  <img src="assets/initial-setting.png" alt="Initial Setting" width="300" height="100">
 </div>
 
 ## Usage
 
 1. **Input Reference Data**: Make sure to input reference data in the orange range which is designated for each column in reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).
 <div style="margin-left: 50px">
-  <img src="assets/input-ref-data.png" alt="Initial Setting" width="300" height="50">
+  <img src="assets/input-ref-data.png" alt="Initial Setting" width="300" height="100">
 </div>
 
 2. **Process data**: Execute functions from custom menu in your Google Sheets UI.
 <div style="margin-left: 50px">
-  <img src="assets/output-data.png" alt="Initial Setting" width="300" height="50">
+  <img src="assets/output-data.png" alt="Initial Setting" width="300" height="100">
 </div>
 
   - Select `Output Mail Merge Data for Confirm Email` to process data for confirmation emails.
@@ -75,7 +75,7 @@ By automating these processes, the Google Apps Script streamlines the management
 
 - **Clear Sample Data**: Clear sample data by clicking `Clear Sample Data` here.
 <div style="margin-left: 50px">
-  <img src="assets/clear-sample-data.png" alt="Initial Setting" width="300" height="50">
+  <img src="assets/clear-sample-data.png" alt="Initial Setting" width="300" height="100">
 </div>
 
 - **Customization**: You can customize the scripts according to your specific preferences.
