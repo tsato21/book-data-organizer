@@ -12,3 +12,5 @@ coverage/
 # .clasp.json
 
 /src/variables.js
+
+/assets
