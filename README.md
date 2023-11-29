@@ -1,5 +1,3 @@
-# Organize E-book Data in Google Sheets and Use Mail Merge
-
 This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheets and utilizing Mail Merge to send personalized emails. The script is specifically designed to handle two types of emails: confirmation emails and link share emails.
 
 - Confirmation Emails: The script processes data to generate unique items for each confirmation email, such as recipient names, course information, and book details. It then uses mail merge to send personalized confirmation emails to the recipients.
@@ -7,13 +5,6 @@ This project involves a Google Apps Script that automates the process of organiz
 - Link Share Emails: The script also handles data for link share emails. It organizes the necessary information, including recipient names, course details, and shared links. Using mail merge, it sends personalized link share emails to the recipients, providing them with the relevant links to access e-books or resources.
 
 By automating these processes, the Google Apps Script streamlines the management and distribution of e-book data, making it easier to send personalized emails to recipients in bulk.
-
-## Features
-
-- **Custom Google Sheets Menu**: Adds a custom menu to your Google Sheets UI for easy access to script functions.
-- **Confirmation Email Data Processing**: Automates generating unique items for each confirmation email, which can be directly used for Mail Merge.
-- **Link Share Email Data Processing**: Automates generating unique items for each email to share the latest e-book info including its link, which can be directly used for Mail Merge.
-- **Error Handling and Notifications**: Provides error notifications through dialog boxes.
 
 ## Prerequisites
 
