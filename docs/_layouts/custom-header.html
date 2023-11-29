@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- Add necessary meta tags and CSS links here -->
-  </head>
-  <body>
-    <header>
-      <h1>TEST</h1>
-      
-    </header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+</head>
+<body>
+  <header>
+    <!-- Your custom header content here -->
+    <h1>{{ page.title }}</h1>
+  </header>
 
+  <main>
     {{ content }}
+  </main>
 
-  </body>
+  <footer>
+    <!-- Your footer content here -->
+  </footer>
+</body>
 </html>

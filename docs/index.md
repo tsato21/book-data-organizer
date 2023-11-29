@@ -1,5 +1,6 @@
 ---
 layout: custom-header
+title: My Custom Homepage
 ---
 
 [日本語版はこちらaaaa](./README_JP.md)
@@ -25,12 +26,12 @@ By automating these processes, the Google Apps Script streamlines the management
 2. **Conduct GAS Authorization**: Access `Initial Setting` Sheet and click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
 
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
+  <img src="assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
 </div>
 
 3. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables in `variables.gs` to suit your needs.
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/custom-variables.png" alt="Image of Variables Customization" width="300" height="100">
+  <img src="assets/images/custom-variables.png" alt="Image of Variables Customization" width="300" height="100">
 </div>
 
 ## Usage
@@ -38,12 +39,12 @@ By automating these processes, the Google Apps Script streamlines the management
 1. **Input Reference Data**: Enter reference data in the designated orange range for each column in the reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).
 
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/input-ref-data.png" alt="Image of Input Ref Data" width="500" height="250">
+  <img src="assets/images/input-ref-data.png" alt="Image of Input Ref Data" width="500" height="250">
 </div>
 
 2. **Process data**: Execute functions from custom menu in your Google Sheets UI.
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/output-data.png" alt="Image of Process Data" width="300" height="100">
+  <img src="assets/images/output-data.png" alt="Image of Process Data" width="300" height="100">
 </div>
 
   - Select `Output Mail Merge Data for Confirm Email` to process data for confirmation emails.
@@ -59,10 +60,10 @@ By automating these processes, the Google Apps Script streamlines the management
     Below are example screenshots illustrating the input data and the output data:
 
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/ref-data-confirm.png" alt="Image of Input Data for Confirm" width="600" height="250">
+  <img src="assets/images/ref-data-confirm.png" alt="Image of Input Data for Confirm" width="600" height="250">
 </div>
 <div style="margin-left: 30px">
-<img src="docs/assets/images/output-data-confirm.png" alt="Output Data for Confirm" width="600" height="350">
+<img src="assets/images/output-data-confirm.png" alt="Output Data for Confirm" width="600" height="350">
 </div>
 
   - Select `Output Mail Merge Data for Link Share Email` to process data for link share emails.
@@ -79,16 +80,16 @@ By automating these processes, the Google Apps Script streamlines the management
     Below are example screenshots:
 
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
+  <img src="assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
 </div>
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
+  <img src="assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
 </div>
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
+  <img src="assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
 </div>
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
+  <img src="assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
 </div>
 
 3. **Use Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click [HERE](https://www.scriptable-assets.page/add-ons/group-merge/).
@@ -98,7 +99,7 @@ By automating these processes, the Google Apps Script streamlines the management
 - **Clear Sample Data**: Clear sample data by clicking `Clear Sample Data` here.
 
 <div style="margin-left: 30px">
-  <img src="docs/assets/images/clear-sample-data.png" alt="Image of Clear Sample Data Image" width="300" height="100">
+  <img src="assets/images/clear-sample-data.png" alt="Image of Clear Sample Data Image" width="300" height="100">
 </div>
 
 - **Customization**: You can customize the scripts according to your specific preferences.
