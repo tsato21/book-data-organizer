@@ -24,21 +24,16 @@ By automating these processes, the Google Apps Script streamlines the management
 
 1. **Open Your Google Sheet**: Access [a sample Google Sheet](https://docs.google.com/spreadsheets/d/1mMuQSK06hIcAUcI1qW4cgD2_IKOXU9_DAR2CTj2a-a8/edit#gid=1834592607) where you want to use this script.
 2. **Conduct GAS Authorizatio**: Access `Initial Setting` Sheet and click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
-<div style="margin-left: 50px">
-  <img src="assets/initial-setting.png" alt="Initial Setting" width="300" height="100">
-</div>
+  ![Image of Initial Setting](assets/initial-setting.png)
 
 ## Usage
 
 1. **Input Reference Data**: Make sure to input reference data in the orange range which is designated for each column in reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).
-<div style="margin-left: 50px">
-  <img src="assets/input-ref-data.png" alt="Initial Setting" width="300" height="100">
-</div>
+  ![Image of Input Reference Data](assets/input-ref-data.png)
 
 2. **Process data**: Execute functions from custom menu in your Google Sheets UI.
-<div style="margin-left: 50px">
-  <img src="assets/output-data.png" alt="Initial Setting" width="300" height="100">
-</div>
+  ![Image of Process Data](assets/output-data.png)
+
 
   - Select `Output Mail Merge Data for Confirm Email` to process data for confirmation emails.
 
@@ -52,8 +47,8 @@ By automating these processes, the Google Apps Script streamlines the management
 
     Below are example screenshots illustrating the input data and the output data after applying the logic:
 
-    ![Input Data](assets/ref-data-confirm.png)
-    ![Output Data](assets/output-data-confirm.png)
+    ![Image of Input Data for Confirm](assets/ref-data-confirm.png)
+    ![Image of Output Data for Confirm](assets/output-data-confirm.png)
 
   - Select `Output Mail Merge Data for Link Share Email` to process data for link share emails.
 
@@ -66,16 +61,15 @@ By automating these processes, the Google Apps Script streamlines the management
 
     Below are example screenshots illustrating the input data and the output data after applying the logic:
 
-    ![Input Data](assets/ref-data-elink.png)
-    ![Output Data](assets/output-data-elink.png)
+    ![Image of Input Data for E-link Share](assets/ref-data-elink.png)
+    ![Image of Output Data for E-link Share](assets/output-data-elink.png)
 3. **Use Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click HERE.
 
 
 ## Others
 
 - **Clear Sample Data**: Clear sample data by clicking `Clear Sample Data` here.
-<div style="margin-left: 50px">
-  <img src="assets/clear-sample-data.png" alt="Initial Setting" width="300" height="100">
-</div>
+  ![Image of Clear Sample Data Image](assets/clear-sample-data.png)
+
 
 - **Customization**: You can customize the scripts according to your specific preferences.
