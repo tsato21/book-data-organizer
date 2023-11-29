@@ -4,19 +4,41 @@
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    a {
+      color: blue;
+    }
+    #table-of-contents {
+      overflow-y: auto;
+      height: 100vh; /* Adjust height as needed */
+      width: 20%; /* Adjust width as needed */
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+    #main-content {
+      margin-left: 20%; /* Adjust based on the width of the ToC */
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <!-- Your custom header content here -->
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <main>
-    {{ content }}
-  </main>
-
-  <footer>
-    <!-- Your footer content here -->
-  </footer>
+  <div id="table-of-contents">
+    <!-- Your table of contents goes here -->
+  </div>
+  <div id="main-content">
+    <header>
+      <h1>{{ page.title }}</h1>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <!-- Your footer content here -->
+    </footer>
+  </div>
 </body>
 </html>
