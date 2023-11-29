@@ -1,100 +1,40 @@
 [Click here for the English version](./README.md)
-# E-book Data Management and Mail Merge Automation
 
-This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheets and utilizing [Group Merge Add-on](https://www.scriptable-assets.page/add-ons/group-merge/) to send personalized emails. The script is specifically designed to handle two types of emails: confirmation emails and link share emails.
+# 電子書籍データ管理とメールマージ自動化
 
-- Confirmation Emails: The script processes data to generate unique items for each confirmation email, such as recipient names, course information, and book details. It then uses [Group Merge Add-on](https://www.scriptable-assets.page/add-ons/group-merge/) to send personalized confirmation emails to the recipients.
+このプロジェクトは、Googleスプレッドシートで電子書籍データを整理し、[グループマージアドオン](https://www.scriptable-assets.page/add-ons/group-merge/)を使用して個別のメールを自動送信するGoogle Apps Scriptを使用しています。このスクリプトは、確認メールとリンク共有メールの2種類のメールを処理するよう特別に設計されています。
 
-- Link Share Emails: The script also handles data for link share emails. It organizes the necessary information, including recipient names, course details, and shared links. Using [Group Merge Add-on](https://www.scriptable-assets.page/add-ons/group-merge/), it sends personalized link share emails to the recipients, providing them with the relevant links to access e-books or resources.
+- 確認メール: スクリプトは、受信者の名前、コース情報、書籍の詳細など、各確認メールに固有の項目を生成するためのデータを処理します。その後、[グループマージアドオン](https://www.scriptable-assets.page/add-ons/group-merge/)を使用して、受信者にパーソナライズされた確認メールを送信します。
 
-By automating these processes, the Google Apps Script streamlines the management and distribution of e-book data, making it easier to send personalized emails to recipients in bulk.
+- リンク共有メール: このスクリプトは、リンク共有メールのデータも処理します。受信者の名前、コースの詳細、共有リンクなどの必要な情報を整理します。[グループマージアドオン](https://www.scriptable-assets.page/add-ons/group-merge/)を使用して、電子書籍またはリソースへのアクセスに関連するリンクを提供する、パーソナライズされたリンク共有メールを受信者に送信します。
 
-## Prerequisites
+これらのプロセスを自動化することで、Google Apps Scriptは電子書籍データの管理と配布を合理化し、大量の受信者にパーソナライズされたメールを簡単に送信することができます。
 
-- A Google account with access to Google Sheets.
-- Basic understanding of Google Sheets and Google Apps Script.
-- Set up another Spreadsheet to use [Group Merge Add-on](https://www.scriptable-assets.page/add-ons/group-merge/).
+## 前提条件
 
-## Setup
+- GoogleシートにアクセスできるGoogleアカウント。
+- GoogleシートとGoogle Apps Scriptの基本的な理解。
+- [グループマージアドオン](https://www.scriptable-assets.page/add-ons/group-merge/)を使用するために別のスプレッドシートを設定する。
 
-1. **Open Your Google Sheet**: Access [Sample Google Sheet](https://docs.google.com/spreadsheets/d/1mMuQSK06hIcAUcI1qW4cgD2_IKOXU9_DAR2CTj2a-a8/edit#gid=1834592607).
-2. **Conduct GAS Authorization**: Access `Initial Setting` Sheet and click the initial setting button. This enables you to go to the authorization page for Google Apps Script.
+## 設定
 
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/initial-setting.png" alt="Image of Initial Setting" width="200" height="100">
-</div>
+1. **Googleシートを開く**: [サンプルGoogleシート](https://docs.google.com/spreadsheets/d/1mMuQSK06hIcAUcI1qW4cgD2_IKOXU9_DAR2CTj2a-a8/edit#gid=1834592607)にアクセスします。
+2. **GAS認証を実施**: `Initial Setting`シートにアクセスし、初期設定ボタンをクリックします。これにより、Google Apps Scriptの認証ページに移動します。
 
-3. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables in `variables.gs` to suit your needs.
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/custom-variables.png" alt="Image of Variables Customization" width="300" height="100">
-</div>
+   ![初期設定の画像](docs/assets/images/initial-setting.png)
 
-## Usage
+3. **組み込み関数の定数変数をカスタマイズ**: Apps Scriptページに移動し、`variables.gs`の定数変数を必要に応じて調整します。
 
-1. **Input Reference Data**: Enter reference data in the designated orange range for each column in the reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).
+   ![変数カスタマイズの画像](docs/assets/images/custom-variables.png)
 
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/input-ref-data.png" alt="Image of Input Ref Data" width="500" height="250">
-</div>
+## 使用方法
 
-2. **Process data**: Execute functions from custom menu in your Google Sheets UI.
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/output-data.png" alt="Image of Process Data" width="300" height="100">
-</div>
+1. **参照データを入力**: 参照シート(`Confirm Mail-Ref Data` / `Link Share Mail-Ref Data`)の指定されたオレンジ色の範囲に参照データを入力します。
 
-  - Select `Output Mail Merge Data for Confirm Email` to process data for confirmation emails.
+   ![参照データ入力の画像](docs/assets/images/input-ref-data.png)
 
-    This function is responsible for processing data to generate mail merge data specifically for confirmation emails. The logic of the function can be summarized as follows:
+2. **データを処理**: GoogleシートのUIにあるカスタムメニューから関数を実行します。
 
-    1. Read each row of data from the input source.
-    2. If the second faculty info is provided, combine the names and emails of the faculty members.
-    3. If the first faculty has multiple records, combine the data to create a single entry for that faculty.
-    4. If a faculty has two books for a certain course, list the book information as "BookXX" where XX represents the book number.
-    5. Generate the final mail merge data that can be used to send confirmation emails.
+   ![データ処理の画像](docs/assets/images/output-data.png)
 
-    Below are example screenshots illustrating the input data and the output data:
-
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/ref-data-confirm.png" alt="Image of Input Data for Confirm" width="600" height="250">
-</div>
-<div style="margin-left: 30px">
-<img src="docs/assets/images/output-data-confirm.png" alt="Output Data for Confirm" width="600" height="350">
-</div>
-
-  - Select `Output Mail Merge Data for Link Share Email` to process data for link share emails.
-
-    This function handles the processing of data to generate mail merge data specifically for link share emails.
-    Once the button is clicked, you will be prompted to enter the discount code and expiration date.
-    The logic of the function can be summarized as follows:
-
-    1. Read each row of data from the input source. (Unlike the confirmation email, this function does not accept the second faculty info.)
-    2. If the faculty has multiple records, combine the data to create a single entry for that faculty.
-    3. If a faculty has two books for a certain course, combine the book information by "/" (e.g. Book A / Book B).
-    4. Generate the final mail merge data that can be used to send confirmation emails.
-
-    Below are example screenshots:
-
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
-</div>
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
-</div>
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
-</div>
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
-</div>
-
-3. **Use Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click [HERE](https://www.scriptable-assets.page/add-ons/group-merge/).
-
-## Others
-
-- **Clear Sample Data**: Clear sample data by clicking `Clear Sample Data` here.
-
-<div style="margin-left: 30px">
-  <img src="docs/assets/images/clear-sample-data.png" alt="Image of Clear Sample Data Image" width="300" height="100">
-</div>
-
-- **Customization**: You can customize the scripts according to your specific preferences.
+   - `確認メール用のメールマージ

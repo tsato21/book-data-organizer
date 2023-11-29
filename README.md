@@ -1,7 +1,3 @@
----
-title: 'AA'
-layout: default
----
 [日本語版はこちら](./README_JP.md)
 # E-book Data Management and Mail Merge Automation
 
