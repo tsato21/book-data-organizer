@@ -1,3 +1,7 @@
+---
+title: E-book Data Management and Mail Merge Automation
+description: This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheets and utilizing Group Merge Add-on to send personalized emails.
+---
 [日本語版はこちら](./README_JP.md)
 # E-book Data Management and Mail Merge Automation
 
