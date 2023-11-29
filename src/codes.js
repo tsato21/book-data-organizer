@@ -168,8 +168,8 @@ function outputItemsForLinkShareEmail() {
       let lastRow = sheet.getRange("C2:C").getValues().filter(String).length;
       // console.log(lastRow);
 
-      const disCountCode = Browser.inputBox('Input the Discount Code provided by Cengage',Browser.Buttons.OK_CANCEL);
-      const availableDate = Browser.inputBox('Input the available date provided by Cengage (e.g. 2023/9/30)',Browser.Buttons.OK_CANCEL);
+      const disCountCode = Browser.inputBox(`Input the Discount Code provided by ${COMPANY_NAME}`,Browser.Buttons.OK_CANCEL);
+      const availableDate = Browser.inputBox(`Input an expiry date provided by ${COMPANY_NAME} (e.g. 2023/9/30)`,Browser.Buttons.OK_CANCEL);
       const datePattern = /^(20\d{2})\/(0?[1-9]|1[0-2])\/(0?[1-9]|[12]\d|3[01])$/;
 
       //If the input data is cancelled or invalid, return and ask the user to try again.

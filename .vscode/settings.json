@@ -12,5 +12,8 @@
       "fileMatch": [".clasp.json"],
       "url": "http://json.schemastore.org/clasp"
     }
-  ]
+  ],
+  "github.copilot.enable": {
+    "markdown": "true"
+  }
 }
