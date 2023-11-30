@@ -1,3 +1,5 @@
 theme: jekyll-theme-primer
 
 baseurl: "/repository-name" # If your site is at username.github.io/repository-name
+
+title: [E-book Data Management and Mail Merge Automation]
