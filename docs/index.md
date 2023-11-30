@@ -1,5 +1,6 @@
 ---
 layout: default
+title: TEST
 ---
 This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheets and utilizing [Group Merge Add-on](https://www.scriptable-assets.page/add-ons/group-merge/) to send personalized emails. The script is specifically designed to handle two types of emails: confirmation emails and link share emails.
 
