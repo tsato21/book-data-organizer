@@ -5,30 +5,21 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    a {
-      color: blue;
-    }
-    #table-of-contents {
-      overflow-y: auto;
-      height: 100vh; /* Adjust height as needed */
-      width: 20%; /* Adjust width as needed */
-      position: fixed;
-      left: 0;
-      top: 0;
-      bottom: 0;
-    }
-    #main-content {
-      margin-left: 20%; /* Adjust based on the width of the ToC */
-    }
+    /* Additional in-document styles if needed */
   </style>
 </head>
 <body>
-  <div id="table-of-contents">
-    <!-- Your table of contents goes here -->
+  <div id="table-of-contents" class="sidebar">
+    <!-- Here you will include your table of contents -->
+    <!-- This could be automated with Jekyll plugins or manually written -->
+    <!-- Example for manual ToC -->
+    <ul>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#setup">Setup</a></li>
+      <li><a href="#others">Others</a></li>
+    </ul>
   </div>
+
   <div id="main-content">
     <header>
       <h1>{{ page.title }}</h1>

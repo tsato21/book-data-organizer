@@ -2,7 +2,6 @@
 layout: custom-header
 title: My Custom Homepage
 ---
-- [E-book Data Management and Mail Merge Automation](#e-book-data-management-and-mail-merge-automation)
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Others](#others)
