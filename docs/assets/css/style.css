@@ -45,4 +45,8 @@ footer {
   padding: 0.4em 0; /* Add some padding to each list item for spacing */
 }
 
+#table-of-contents a:hover {
+  color: #00008B; /* Change the color to red on hover, or choose your own color */
+}
+
 /* Add additional styles as needed */
