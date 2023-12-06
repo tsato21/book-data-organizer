@@ -1,2 +1,4 @@
+# Site settings
 theme: jekyll-theme-primer
-title: 'E-book Mail Process Automation by Mail Merge'
+title: 'Mail Automated Process'
+description: 'GAS to automate mail processing'
