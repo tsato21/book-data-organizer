@@ -5,6 +5,7 @@ body {
 
 a {
   color: blue; /* This will make all links blue */
+  text-decoration: none;
 }
 
 #table-of-contents {
