@@ -97,7 +97,7 @@ By automating these processes, the Google Apps Script streamlines the management
 
 ## Others
 
-- **Clear Sample Data**: Clear sample data by clicking `Clear Sample Data` here. When you actually use this script.
+- **Clear Sample Data**: Clear sample data by clicking `Clear Sample Data` here when you actually use this script.
 
 <div style="margin-left: 30px">
   <img src="assets/images/clear-sample-data.png" alt="Image of Clear Sample Data Image" width="300" height="100">
