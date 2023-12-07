@@ -1,5 +1,10 @@
 # Site settings
 theme: jekyll-theme-primer
-# This title is default fallback. It will only be used for the <title> tag if a particular page does not have a title specified in its front matter.Mail Automated Process_GAS to automate mail processing
-title: 'b'
-description: 'f'
+# This title is default fallback. It will only be used for the <title> tag if a particular page does not have a title specified in its front matter.
+title: 'Mail Automated Process by GAS'
+description: |
+  This site introduces a project involving a Google Apps Script 
+  that automates the process of organizing e-book data in Google Sheet 
+  and utilizing the Group Merge Add-on to send personalized emails. 
+  The script is specifically designed to handle two types of emails: 
+  confirmation emails and link share emails.
