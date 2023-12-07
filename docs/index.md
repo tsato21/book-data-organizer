@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 'Ebook Mail Process Automation through Mail Merge'
+title: 'a'
 ---
 
-## About this Project
+## About this Project_Ebook Mail Process Automation through Mail Merge
 
 This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheet and utilizing <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">Group Merge Add-on</a> to send personalized emails. The script is specifically designed to handle two types of emails: confirmation emails and link share emails.
 
