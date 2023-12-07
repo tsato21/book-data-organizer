@@ -1,4 +1,5 @@
 # Site settings
 theme: jekyll-theme-primer
+# This title is default fallback. It will only be used for the <title> tag if a particular page does not have a title specified in its front matter.
 title: 'Mail Automated Process'
 description: 'GAS to automate mail processing'
