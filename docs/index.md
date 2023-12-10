@@ -30,6 +30,7 @@ By automating these processes, the Google Apps Script streamlines the management
     </div>
 
 4. **Customize Constant Variables for Built-in Functions**: Navigate to the Apps Script page and adjust the constant variables in `variables.gs` to suit your needs.
+
     <div style="margin-left: 30px">
       <img src="assets/images/custom-variables.png" alt="Image of Variables Customization" width="300" height="100">
     </div>
