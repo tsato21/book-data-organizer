@@ -55,9 +55,9 @@ By automating these processes, the Google Apps Script streamlines the management
     2. If the second faculty information is provided, combine the names and emails of the faculty members.<br>
     3. If the first faculty has multiple records, combine the data to create a single entry for that faculty.<br>
     4. If a faculty has two books for a certain course, list the book information as "BookXX)" where XX represents the book number.<br>
-    5. Generate the final mail merge data that can be used to send confirmation emails.<br>
+    5. Generate the final mail merge data that can be used to send confirmation emails.<br><br>
 
-    Below are example screenshots illustrating the input data and the output data:
+    Below are example screenshots illustrating the input data and the output data:<br>
 
     <div style="margin-left: 30px">
       <img src="assets/images/ref-data-confirm.png" alt="Image of Input Data for Confirm" width="600" height="250">
@@ -66,6 +66,8 @@ By automating these processes, the Google Apps Script streamlines the management
     <img src="assets/images/output-data-confirm.png" alt="Output Data for Confirm" width="600" height="350">
     </div>
 
+    <br><br>
+    
   - Select `Output Mail Merge Data for Link Share Email` to process data for link share emails.
 
     This function handles the processing of data to generate mail merge data specifically for link share emails.<br>
@@ -76,9 +78,9 @@ By automating these processes, the Google Apps Script streamlines the management
     2. If the faculty has multiple records, combine the data to create a single entry for that faculty.<br>
     3. If a faculty has two books for a certain course, combine the book information by "/" (e.g. Book A / Book B). This is because the e-book link is created by each course even if 
        the course has multiple books. (But you can modify the codes to suit your case.)<br>
-    4. Generate the final mail merge data that can be used to send e-link share emails.<br>
+    4. Generate the final mail merge data that can be used to send e-link share emails.<br><br>
 
-    Below are example screenshots:
+    Below are example screenshots:<br>
 
     <div style="margin-left: 30px">
       <img src="assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
