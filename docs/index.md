@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Mail Process Automation'
+title: 'E-book Data Process Automation'
 ---
 
 ## About this Project
