@@ -81,21 +81,21 @@ By automating these processes, the Google Apps Script streamlines the management
 
     Below are example screenshots:
 
-    <div style="margin-left: 30px">
-      <img src="assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
-    </div>
-    <div style="margin-left: 30px">
-      <img src="assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
-    </div>
-    <div style="margin-left: 30px">
-      <img src="assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
-    </div>
-    <div style="margin-left: 30px">
-      <img src="assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
-    </div>
+        <div style="margin-left: 30px">
+          <img src="assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
+        </div>
+        <div style="margin-left: 30px">
+          <img src="assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
+        </div>
+        <div style="margin-left: 30px">
+          <img src="assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
+        </div>
+        <div style="margin-left: 30px">
+          <img src="assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
+        </div>
 
 
- 3. **Use Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">HERE</a>.
+3. **Usea Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">HERE</a>.
 
 ## Others
 
