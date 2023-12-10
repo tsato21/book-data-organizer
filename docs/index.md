@@ -66,7 +66,7 @@ By automating these processes, the Google Apps Script streamlines the management
     <img src="assets/images/output-data-confirm.png" alt="Output Data for Confirm" width="600" height="350">
     </div>
 
-    <br><br>
+    <br>
     
   - Select `Output Mail Merge Data for Link Share Email` to process data for link share emails.
 
