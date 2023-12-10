@@ -36,14 +36,13 @@ By automating these processes, the Google Apps Script streamlines the management
     </div>
 
 ## Usage
-
-1. **Input Reference Data**: Enter reference data in the designated orange range for each column in the reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).
-
+<ol>
+  <li><strong>Input Reference Data</strong>: Enter reference data in the designated orange range for each column in the reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).</li>
     <div style="margin-left: 30px">
       <img src="assets/images/input-ref-data.png" alt="Image of Input Ref Data" width="500" height="250">
     </div>
 
-2. **Process data**: Execute functions from the custom menu in your Google Sheet UI.
+  <li><strong>Process data</strong>: Execute functions from the custom menu in your Google Sheet UI.</li>
     <div style="margin-left: 30px">
       <img src="assets/images/output-data.png" alt="Image of Process Data" width="300" height="100">
     </div>
@@ -81,21 +80,21 @@ By automating these processes, the Google Apps Script streamlines the management
 
     Below are example screenshots:
 
-        <div style="margin-left: 30px">
-          <img src="assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
-        </div>
-        <div style="margin-left: 30px">
-          <img src="assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
-        </div>
-        <div style="margin-left: 30px">
-          <img src="assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
-        </div>
-        <div style="margin-left: 30px">
-          <img src="assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
-        </div>
+    <div style="margin-left: 30px">
+      <img src="assets/images/input-discount-code.png" alt="Image of Input Screen for Discount Code" width="300" height="100">
+    </div>
+    <div style="margin-left: 30px">
+      <img src="assets/images/input-expiry-date.png" alt="Image of Input Screen for Expiry Date" width="300" height="100">
+    </div>
+    <div style="margin-left: 30px">
+      <img src="assets/images/ref-data-elink.png" alt="Image of Input Data for E-link Share" width="600" height="250">
+    </div>
+    <div style="margin-left: 30px">
+      <img src="assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
+    </div>
 
-
-3. **Usea Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">HERE</a>.
+  <li><strong>Use Output Data for Mail Merge</strong>: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">HERE</a>.</li>
+</ol>
 
 ## Others
 
