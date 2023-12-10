@@ -94,6 +94,7 @@ By automating these processes, the Google Apps Script streamlines the management
       <img src="assets/images/output-data-elink.png" alt="Image of Output Data for E-link Share" width="600" height="350">
     </div>
 
+
 3. **Use Output Data for Mail Merge**: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">HERE</a>.
 
 ## Others
