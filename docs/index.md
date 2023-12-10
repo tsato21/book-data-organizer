@@ -47,15 +47,15 @@ By automating these processes, the Google Apps Script streamlines the management
       <img src="assets/images/output-data.png" alt="Image of Process Data" width="300" height="100">
     </div>
 
-  - Select `Output Mail Merge Data for Confirm Email` to process data for confirmation emails.
+  - Select `Output Mail Merge Data for Confirm Email` to process data for confirmation emails.<br>
 
-    This function is responsible for processing data to generate mail merge data specifically for confirmation emails. The logic of the function can be summarized as follows:
+    This function is responsible for processing data to generate mail merge data specifically for confirmation emails. The logic of the function can be summarized as follows:<br>
 
-    1. Read each row of data from the input source.
-    2. If the second faculty information is provided, combine the names and emails of the faculty members.
-    3. If the first faculty has multiple records, combine the data to create a single entry for that faculty.
-    4. If a faculty has two books for a certain course, list the book information as "BookXX)" where XX represents the book number.
-    5. Generate the final mail merge data that can be used to send confirmation emails.
+    1. Read each row of data from the input source.<br>
+    2. If the second faculty information is provided, combine the names and emails of the faculty members.<br>
+    3. If the first faculty has multiple records, combine the data to create a single entry for that faculty.<br>
+    4. If a faculty has two books for a certain course, list the book information as "BookXX)" where XX represents the book number.<br>
+    5. Generate the final mail merge data that can be used to send confirmation emails.<br>
 
     Below are example screenshots illustrating the input data and the output data:
 
@@ -68,15 +68,15 @@ By automating these processes, the Google Apps Script streamlines the management
 
   - Select `Output Mail Merge Data for Link Share Email` to process data for link share emails.
 
-    This function handles the processing of data to generate mail merge data specifically for link share emails.
-    Once the button is clicked, you will be prompted to enter the discount code and expiration date.
-    The logic of the function can be summarized as follows:
+    This function handles the processing of data to generate mail merge data specifically for link share emails.<br>
+    Once the button is clicked, you will be prompted to enter the discount code and expiration date.<br>
+    The logic of the function can be summarized as follows:<br>
 
-    1. Read each row of data from the input source. (Unlike the confirmation email, this function is not designed to accept the second faculty information.)
-    2. If the faculty has multiple records, combine the data to create a single entry for that faculty.
+    1. Read each row of data from the input source. (Unlike the confirmation email, this function is not designed to accept the second faculty information.)<br>
+    2. If the faculty has multiple records, combine the data to create a single entry for that faculty.<br>
     3. If a faculty has two books for a certain course, combine the book information by "/" (e.g. Book A / Book B). This is because the e-book link is created by each course even if 
-       the course has multiple books. (But you can modify the codes to suit your case.)
-    4. Generate the final mail merge data that can be used to send e-link share emails.
+       the course has multiple books. (But you can modify the codes to suit your case.)<br>
+    4. Generate the final mail merge data that can be used to send e-link share emails.<br>
 
     Below are example screenshots:
 
