@@ -1,7 +1,7 @@
 # Site settings
 theme: jekyll-theme-primer
 # This title is default fallback. It will only be used for the <title> tag if a particular page does not have a title specified in its front matter.
-title: 'E-book Data Automation by GAS'
+title: 'E-book Data Process Automation by GAS'
 description: |
   This site introduces a project involving a Google Apps Script 
   that automates the process of organizing e-book data in Google Sheet 
