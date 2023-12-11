@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- Include SEO tags and other head elements -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>E-book Data Process Automation</title>
   <style>
     /* Additional in-document styles if needed */
   </style>
@@ -19,20 +19,20 @@
       <li><a href="#others">Others</a></li>
     </ul>
   </div>
-    <h2 id="#top">About this Project</h2>
+    <h2 id="top">About this Project</h2>
     <p>This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheet and utilizing <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">Group Merge Add-on</a> to send personalized emails. The script is specifically designed to handle two types of emails: confirmation emails and link share emails.</p>
     <ul>
         <li>Confirmation Emails: The script processes data to generate unique items for each confirmation email, such as recipient names, course information, and book details. It then uses Group Merge Add-on to send personalized confirmation emails to the recipients.</li>
         <li>Link Share Emails: The script processes data to generate unique items for each email to share e-book links. It organizes the necessary information, including recipient names, course details, and e-book links. Using Group Merge Add-on, it sends personalized link share emails to the recipients, providing them with the relevant links to access e-books or resources.</li>
     </ul>
     <p>By automating these processes, the Google Apps Script streamlines the management and distribution of e-book data to target individuals, making it easier to send personalized emails to recipients in bulk.</p>
-    <h2 id="#prerequisites">Prerequisites</h2>
+    <h2 id="prerequisites">Prerequisites</h2>
     <ul>
         <li>A Google account with access to Google Sheets.</li>
         <li>Basic understanding of Google Sheets and Google Apps Script.</li>
         <li>Set up another Spreadsheet to use <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">Group Merge Add-on</a>.</li>
     </ul>
-    <h2 id="#setup">Setup</h2>
+    <h2 id="setup">Setup</h2>
     <ol>
         <li><strong>Open Your Google Sheet</strong>: Access <a href="https://docs.google.com/spreadsheets/d/1mMuQSK06hIcAUcI1qW4cgD2_IKOXU9_DAR2CTj2a-a8/edit#gid=1834592607" target="_blank" rel="noopener noreferrer">Sample Google Sheet</a>.</li>
         <li>Copy the Google Sheet to make your sheet.</li>
@@ -47,7 +47,7 @@
             </div>
         </li>
     </ol>
-    <h2 id="#usage">Usage</h2>
+    <h2 id="usage">Usage</h2>
     <ol>
         <li><strong>Input Reference Data</strong>: Enter reference data in the designated orange range for each column in the reference sheets (`Confirm Mail-Ref Data`/ `Link Share Mail-Ref Data`).
             <div style="margin-left: 30px">
@@ -102,7 +102,7 @@
         </li>
         <li><strong>Use Output Data for Mail Merge</strong>: Processed data are output in output sheets (`Confirm Mail-Mail Merge Data`/ `Link Share Mail-Mail Merge Data`). Use the data for Mail Merge. As for the usage of Mail Merge, click <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">HERE</a>.</li>
     </ol>
-    <h2 id="#others">Others</h2>
+    <h2 id="others">Others</h2>
     <ul>
         <li><strong>Clear Sample Data</strong>: Clear sample data by clicking `Clear Sample Data` here when you actually use this script.
             <div style="margin-left: 30px">
