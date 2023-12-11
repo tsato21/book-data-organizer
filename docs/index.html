@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>E-book Data Process Automation</title>
-    <!-- Additional head elements (like CSS links) can be added here -->
+  <meta charset="UTF-8">
+  <!-- Include SEO tags and other head elements -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+  <style>
+    /* Additional in-document styles if needed */
+  </style>
 </head>
 <body>
+  <div id="table-of-contents" class="sidebar">
+    <!-- Sidebar with Table of Contents -->
+    <ul>
+      <li><a href="#top">Top</a></li>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#setup">Setup</a></li>
+      <li><a href="#others">Others</a></li>
+    </ul>
+  </div>
     <h2 id="#top">About this Project</h2>
     <p>This project involves a Google Apps Script that automates the process of organizing e-book data in Google Sheet and utilizing <a href="https://www.scriptable-assets.page/add-ons/group-merge/" target="_blank" rel="noopener noreferrer">Group Merge Add-on</a> to send personalized emails. The script is specifically designed to handle two types of emails: confirmation emails and link share emails.</p>
     <ul>
