@@ -1,29 +1,25 @@
 {
-  "name": "gas-template",
+  "name": "book-data-organizer",
   "version": "1.0.0",
-  "description": "A personal template repository for creating a local dev environment using Google Apps Script and clasp",
-  "main": "src/sample.js",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "Automates book data organization in Google Sheets and uses Group Merge Add-on for personalized email sending to share book information.",
   "scripts": {
-    "test": "jest"
+    "format": "prettier --write src/**/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttsukagoshi/gas-template.git"
+    "url": "git+https://github.com/tsato21/book-data-organizer"
   },
   "keywords": [
     "google-apps-script",
     "gas",
     "clasp"
   ],
-  "author": "ttsukagoshi",
+  "author": "tsato21",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ttsukagoshi/gas-template/issues"
+    "url": "https://github.com/tsato21/book-data-organizer/issues"
   },
-  "homepage": "https://github.com/ttsukagoshi/gas-template#readme",
+  "homepage": "http://localhost:3000/scripts-showcase/gas-tools/each-tool/book-data-organizer",
   "devDependencies": {
     "@google/clasp": "^2.4.2",
     "@types/google-apps-script": "^1.0.64",

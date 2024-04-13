@@ -1,1 +1,2 @@
-# organize-ebook-info
+# Book Data Organizer
+Automates book data organization in Google Sheets and uses Group Merge Add-on for personalized email sending to share book information. You can see details at [Book Data Organizer](http://localhost:3000/scripts-showcase/gas-tools/each-tool/book-data-organizer).
