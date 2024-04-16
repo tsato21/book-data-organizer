@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/tsato21/book-data-organizer/issues"
   },
-  "homepage": "http://localhost:3000/scripts-showcase/gas-tools/each-tool/book-data-organizer",
+  "homepage": "https://tsato21.github.io/gas-tools/each-tool/book-data-organizer",
   "devDependencies": {
     "@google/clasp": "^2.4.2",
     "@types/google-apps-script": "^1.0.64",
